@@ -20,8 +20,8 @@ namespace App
         public static bool StartupShowMainForm { get; set; } = true;
         public static bool AutoOverlayHide { get; set; } = true;
         public static bool FlashWindow { get; set; } = true;
-        public static bool CheatRoulette { get; set; } = false;
-        public static bool HeartBeatLock { get; set; } = false;
+        public static bool CheatRoulette { get; set; } = true;
+        public static bool HeartBeatLock { get; set; } = true;
         public static bool RouletteTips { get; set; } = true;
         public static bool Updated { get; set; } = true;
         public static bool PlaySound { get; set; } = false;
